@@ -12,9 +12,14 @@ const Header = styled(StyledCard)`
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.5rem;
   align-items: center;
   width: 95vw;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(255, 140, 0, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 140, 0, 0.2);
 `;
 
 const Nav = (props: { children?: ReactNode}) => {

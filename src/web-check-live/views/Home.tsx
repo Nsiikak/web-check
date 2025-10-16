@@ -19,18 +19,22 @@ const HomeContainer = styled.section`
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-family: 'PTMono';
+  font-family: 'Inter', sans-serif;
   padding: 1.5rem 1rem 4rem 1rem;
+  background: linear-gradient(135deg, #FFF4E6 0%, #FFE4B5 100%);
+  min-height: 100vh;
   footer {
     z-index: 1;
   }
 `;
 
 const UserInputMain = styled.form`
-  background: ${colors.backgroundLighter};
-  box-shadow: 4px 4px 0px ${colors.bgShadowColor};
-  border-radius: 8px;
-  padding: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(255, 140, 0, 0.1), 4px 4px 0px ${colors.bgShadowColor};
+  border-radius: 16px;
+  border: 1px solid rgba(255, 140, 0, 0.2);
+  padding: 2rem;
   z-index: 5;
   margin: 1rem;
   width: calc(100% - 2rem);
@@ -39,10 +43,12 @@ const UserInputMain = styled.form`
 `;
 
 const SponsorCard = styled.div`
-  background: ${colors.backgroundLighter};
-  box-shadow: 4px 4px 0px ${colors.bgShadowColor};
-  border-radius: 8px;
-  padding: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(255, 140, 0, 0.1), 4px 4px 0px ${colors.bgShadowColor};
+  border-radius: 16px;
+  border: 1px solid rgba(255, 140, 0, 0.2);
+  padding: 2rem;
   z-index: 5;
   margin: 1rem;
   width: calc(100% - 2rem);
@@ -99,6 +105,12 @@ const SiteFeaturesWrapper = styled(StyledCard)`
   width: calc(100% - 2rem);
   max-width: 60rem;
   z-index: 2;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(255, 140, 0, 0.1), 4px 4px 0px ${colors.bgShadowColor};
+  border-radius: 16px;
+  border: 1px solid rgba(255, 140, 0, 0.2);
+  padding: 2rem;
   .links {
     display: flex;
     justify-content: center;

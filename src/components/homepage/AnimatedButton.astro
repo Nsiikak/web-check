@@ -25,26 +25,27 @@ const buttonType = 'submit';
   }
 
   .button {
-    padding: 1rem;
-    background: transparent;
-    font-size: 2rem;
-    color: var(--text-color-secondary);
-    border: 2px solid var(--text-color-thirdly);
-    border-radius: 3px;
-    font-weight: bold;
-    background: var(--background);   
+    padding: 1.2rem 2rem;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-lighter) 100%);
+    font-size: 1.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: white;
+    border: 2px solid var(--primary);
+    border-radius: 12px;
     cursor: pointer;
     overflow: hidden;
-    --angle: 90deg;
-    --gradX: 100%;
-    --gradY: 50%;
-    --c1: var(--primary);
-    --c2: var(--text-color-thirdly);
-    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.5turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 1;
-    animation: borderRotate 3500ms linear infinite forwards;
-    transition: border 0.3s ease-in-out;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 140, 0, 0.3);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     &:hover {
-      border: 2px solid var(--primary);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(255, 140, 0, 0.4);
+      background: linear-gradient(135deg, var(--primary-lighter) 0%, var(--primary) 100%);
+    }
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 10px rgba(255, 140, 0, 0.3);
     }
   }
 
