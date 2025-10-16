@@ -1,23 +1,22 @@
-
 const colors = {
-  primary: '#c1fb41',
-  primaryLighter: '#cff97a',
-  textColor: '#ffffff',
-  textColorSecondary: '#a4b1cd',
-  background: '#141517',
-  backgroundDarker: '#000000',
-  backgroundLighter: '#242525',
-  bgShadowColor: '#101010',
-  fgShadowColor: '#3f550e',
-  primaryTransparent: '#9fef0012',
+  primary: "#FF8C00",
+  primaryLighter: "#FFB366",
+  textColor: "#1E3A8A",
+  textColorSecondary: "#1E3A8AB6",
+  background: "#FFF4E6",
+  backgroundDarker: "#FFE4B5",
+  backgroundLighter: "#FFF8F0",
+  bgShadowColor: "#FFB366",
+  fgShadowColor: "#FF8C00",
+  primaryTransparent: "#FF8C0012",
 
   // Action Colors
-  info: '#04e4f4',
-  success: '#20e253',
-  warning: '#f6f000',
-  error: '#fca016',
-  danger: '#f80363',
-  neutral: '#272f4d',
+  info: "#1E90FF",
+  success: "#32CD32",
+  warning: "#FFD700",
+  error: "#FF4500",
+  danger: "#DC143C",
+  neutral: "#4682B4",
 };
 
 export default colors;

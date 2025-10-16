@@ -33,7 +33,7 @@ const FancyBackground = (): JSX.Element => {
     this.popPerBirth = 1;
     this.maxPop = 300;
     this.birthFreq = 2;
-    this.bgColor = '#141d2b';
+    this.bgColor = '#FFF4E6';
 
     var canvas = document.createElement('canvas');
     canvas.width = window.innerWidth;
@@ -146,8 +146,8 @@ const FancyBackground = (): JSX.Element => {
     y = gridSpot.y;
   
     var particle = {
-      hue: 200, // + Math.floor(50*Math.random()),
-      sat: 95, //30 + Math.floor(70*Math.random()),
+      hue: 30, // Orange hue
+      sat: 95,
       lum: 20 + Math.floor(40 * Math.random()),
       x: x,
       y: y,
@@ -281,8 +281,8 @@ const FancyBackground = (): JSX.Element => {
         oldAttracXY = this.dataXYtoCanvasXY(oldAttracSpot.x, oldAttracSpot.y);
   
       this.ctx.beginPath();
-      this.ctx.strokeStyle = '#9fef00';
-      this.ctx.fillStyle = '#9fef00';
+      this.ctx.strokeStyle = '#FF8C00';
+      this.ctx.fillStyle = '#FF8C00';
   
       // Particle trail
       this.ctx.moveTo(last.x, last.y);
@@ -306,8 +306,8 @@ const FancyBackground = (): JSX.Element => {
         false
       );
 
-      this.ctx.strokeStyle = '#9fef00';
-      this.ctx.fillStyle = '#9fef00';
+      this.ctx.strokeStyle = '#FF8C00';
+      this.ctx.fillStyle = '#FF8C00';
 
       this.ctx.stroke();
       this.ctx.fill();

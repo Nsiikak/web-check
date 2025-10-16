@@ -219,8 +219,8 @@ const Home = (): JSX.Element => {
       <UserInputMain onSubmit={formSubmitEvent}>
         <a href="/">
           <Heading as="h1" size="xLarge" align="center" color={colors.primary}>
-            <img width="64" src="/web-check.png" alt="Web Check Icon" />
-            Web Check
+            <img width="64" src="/favicon.svg" alt="SHEF LABS TECHNOLOGY Icon" />
+            SHEF LABS TECHNOLOGY
           </Heading>
         </a>
         <Input
@@ -240,36 +240,20 @@ const Home = (): JSX.Element => {
         <Button type="submit" styles="width: calc(100% - 1rem);" size="large" onClick={submit}>Analyze!</Button>
       </UserInputMain>
       <SponsorCard>
-        <Heading as="h2" size="small" color={colors.primary}>Sponsored by</Heading>
+        <Heading as="h2" size="small" color={colors.primary}>Cybersecurity Analysis Platform</Heading>
         <div className="inner">
           <p>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://terminaltrove.com/?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh"
-            >
-              Terminal Trove
-            </a> - The $HOME of all things in the terminal.
+            SHEF LABS TECHNOLOGY provides comprehensive cybersecurity analysis and threat assessment.
             <br />
             <span className="cta">
-              Get updates on the latest CLI/TUI tools via
-              the <a
-                target="_blank"
-                rel="noreferrer"
-                className="cta"
-                href="https://terminaltrove.com/newsletter?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh"
-                >
-                Terminal Trove newsletter
-              </a>
+              Advanced security scanning and vulnerability assessment for modern web applications.
             </span>
             
           </p>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://terminaltrove.com/?utm_campaign=github&utm_medium=referral&utm_content=web-check&utm_source=wcgh">
-            <img width="120" alt="Terminal Trove" src="https://i.ibb.co/NKtYjJ1/terminal-trove-web-check.png" />
-          </a>
+          <div style={{textAlign: 'center', padding: '1rem'}}>
+            <div style={{fontSize: '2rem', color: colors.primary, fontWeight: 'bold'}}>🛡️</div>
+            <div style={{fontSize: '0.9rem', color: colors.textColorSecondary}}>Security First</div>
+          </div>
         </div>
 
       </SponsorCard>

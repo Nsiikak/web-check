@@ -1,8 +1,8 @@
 {
-  "name": "web-check",
+  "name": "shef-labs-technology",
   "type": "module",
   "version": "2.0.1",
-  "homepage": "https://web-check.xyz",
+  "homepage": "https://shef-labs-technology.xyz",
   "scripts": {
     "start": "node server",
     "start-pm": "pm2 start server.js -i max",
